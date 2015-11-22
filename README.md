@@ -4,7 +4,7 @@
 * Installer Node.js
 * sudo npm install -g phonegap
 
-Utilisation :
+### Utilisation :
 - ~~ phonegap create my-app ~~
 - ~~ cd my-app ~~
 - ~~ phonegap run android ~~
@@ -12,3 +12,7 @@ Utilisation :
 - Affichage [phonegap] listening on 192.168.42.99:3000
 - Installer phonegap developper sur son telephone (play store)
 - Sur l'application se connecter sur 192.168.42.99:3000
+
+## Avancement de l'app :
+- Temps d'installation : a voir
+- 22/11 => Interface graphique : titre + boutons : 15 minutes
