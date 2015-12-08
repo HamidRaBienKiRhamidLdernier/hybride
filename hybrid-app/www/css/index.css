@@ -22,7 +22,7 @@ h1 {
     margin-bottom: 100px;
 }
 
-button {
+button, a {
     display: block !important;
     height: 70px;
     width: 250px;
@@ -31,6 +31,9 @@ button {
     font-weight: 800 !important;
 }
 
+img {
+    width: 100%;
+}
 
 
 /* Landscape layout (with min-width) */
