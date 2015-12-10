@@ -22,3 +22,9 @@
 		- Temps de téléchargement moyen : 7123.6 ms
 		- Temps le plus faible : 4636 ms
 		- Temps le plus élevé : 14983 ms
+- 10/12 => Traitement d'image
+	- Temps de développement : 1h + ?
+	- Résultats :
+		- Temps de traitement moyen : 1628.6 ms
+		- Temps le plus faible : 1453 ms
+		- Temps le plus élevé : 2015 ms

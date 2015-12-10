@@ -15,21 +15,27 @@ function downloadFile(){
       var fileTransfer = new FileTransfer();
       fileTransfer.download(url, imagePath, function (entry) {
                 console.log(entry.fullPath); // entry is fileEntry object
-                showLink(url);
+                showLink(imagePath);
       }, function (error) {
                console.log(error.code);
       });
    })
 }
 
-function showLink (url) {
+function showLink (path) {
     var imgEl = document.getElementById("img-dl");
-    imgEl.setAttribute("src", url);
+    imgEl.setAttribute("src", path);
 
     timeStop = new Date().getTime();
     duration = timeStop - timeStart;
     var pEl = document.getElementById("time-dl");
     pEl.innerHTML = "Download time : " + duration;
+}
+
+
+
+function onFail (error) {
+    console.error(error);
 }
 
 function onDeviceReady() {
