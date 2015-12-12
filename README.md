@@ -28,3 +28,11 @@
 		- Temps de traitement moyen : 1628.6 ms
 		- Temps le plus faible : 1453 ms
 		- Temps le plus élevé : 2015 ms
+- 12/12 => Upload d'image
+	- Temps de développement : 2h
+	- Résultats :
+		- Temps de traitement moyen : 2364,5 ms
+		- Temps le plus faible : 1812 ms
+		- Temps le plus élevé : 5401 ms
+
+
